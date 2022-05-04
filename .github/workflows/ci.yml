@@ -27,4 +27,4 @@ jobs:
         with:
           command: tfsec --version
         env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_API_TOKEN: ${{ secrets.NEW_GITHUB_TOKEN }}
